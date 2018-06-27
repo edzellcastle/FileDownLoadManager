@@ -1,15 +1,15 @@
 //
-//  CouchbaseFetchTests.swift
-//  CouchbaseFetchTests
+//  FileDownloadManagerTests.swift
+//  FileDownloadManagerTests
 //
 //  Created by David Lindsay on 3/31/18.
 //  Copyright © 2018 Tapinfuse. All rights reserved.
 //
 
 import XCTest
-@testable import CouchbaseFetch
+@testable import FileDownloadManager
 
-class CouchbaseFetchTests: XCTestCase {
+class FileDownloadManagerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

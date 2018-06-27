@@ -13,6 +13,13 @@
 		630776A920703E690068A879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630776A820703E690068A879 /* Assets.xcassets */; };
 		630776AC20703E690068A879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630776AA20703E690068A879 /* LaunchScreen.storyboard */; };
 		630776B720703E690068A879 /* CouchbaseFetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630776B620703E690068A879 /* CouchbaseFetchTests.swift */; };
+		63230C72207843D400FB97C9 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63230C71207843D400FB97C9 /* AppConstants.swift */; };
+		63230CAE2079886900FB97C9 /* ComputeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63230CAD2079886900FB97C9 /* ComputeOperation.swift */; };
+		63230CB4207ACE5B00FB97C9 /* GetFileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63230CB3207ACE5B00FB97C9 /* GetFileOperation.swift */; };
+		637D84532070481F001578B8 /* URLDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637D84522070481F001578B8 /* URLDownloader.swift */; };
+		637D845520704D3B001578B8 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637D845420704D3B001578B8 /* Job.swift */; };
+		637D84A1207452A1001578B8 /* DownloadFileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637D84A0207452A1001578B8 /* DownloadFileOperation.swift */; };
+		6399E5F4207D2A3F00B48730 /* UpdateResultsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6399E5F3207D2A3F00B48730 /* UpdateResultsOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6307769E20703E670068A879 /* CouchbaseFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouchbaseFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6307769E20703E670068A879 /* FileDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		630776A120703E670068A879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		630776A320703E670068A879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		630776A620703E670068A879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		630776A820703E690068A879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		630776AB20703E690068A879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		630776AD20703E690068A879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		630776B220703E690068A879 /* CouchbaseFetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchbaseFetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630776B220703E690068A879 /* FileDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630776B620703E690068A879 /* CouchbaseFetchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchbaseFetchTests.swift; sourceTree = "<group>"; };
 		630776B820703E690068A879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63230C71207843D400FB97C9 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		63230CAC2079852900FB97C9 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		63230CAD2079886900FB97C9 /* ComputeOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputeOperation.swift; sourceTree = "<group>"; };
+		63230CB3207ACE5B00FB97C9 /* GetFileOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFileOperation.swift; sourceTree = "<group>"; };
+		637D84522070481F001578B8 /* URLDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLDownloader.swift; sourceTree = "<group>"; };
+		637D845420704D3B001578B8 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		637D84A0207452A1001578B8 /* DownloadFileOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFileOperation.swift; sourceTree = "<group>"; };
+		6399E5F3207D2A3F00B48730 /* UpdateResultsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateResultsOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +74,8 @@
 		6307769520703E670068A879 = {
 			isa = PBXGroup;
 			children = (
-				630776A020703E670068A879 /* CouchbaseFetch */,
-				630776B520703E690068A879 /* CouchbaseFetchTests */,
+				630776A020703E670068A879 /* FileDownloadManager */,
+				630776B520703E690068A879 /* FileDownloadManagerTests */,
 				6307769F20703E670068A879 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,40 +83,48 @@
 		6307769F20703E670068A879 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6307769E20703E670068A879 /* CouchbaseFetch.app */,
-				630776B220703E690068A879 /* CouchbaseFetchTests.xctest */,
+				6307769E20703E670068A879 /* FileDownloadManager.app */,
+				630776B220703E690068A879 /* FileDownloadManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		630776A020703E670068A879 /* CouchbaseFetch */ = {
+		630776A020703E670068A879 /* FileDownloadManager */ = {
 			isa = PBXGroup;
 			children = (
 				630776A120703E670068A879 /* AppDelegate.swift */,
+				63230C71207843D400FB97C9 /* AppConstants.swift */,
+				63230CAC2079852900FB97C9 /* Bridging-Header.h */,
+				63230CAD2079886900FB97C9 /* ComputeOperation.swift */,
+				637D84A0207452A1001578B8 /* DownloadFileOperation.swift */,
+				6399E5F3207D2A3F00B48730 /* UpdateResultsOperation.swift */,
+				63230CB3207ACE5B00FB97C9 /* GetFileOperation.swift */,
+				637D845420704D3B001578B8 /* Job.swift */,
+				637D84522070481F001578B8 /* URLDownloader.swift */,
 				630776A320703E670068A879 /* ViewController.swift */,
 				630776A520703E670068A879 /* Main.storyboard */,
 				630776A820703E690068A879 /* Assets.xcassets */,
 				630776AA20703E690068A879 /* LaunchScreen.storyboard */,
 				630776AD20703E690068A879 /* Info.plist */,
 			);
-			path = CouchbaseFetch;
+			path = FileDownloadManager;
 			sourceTree = "<group>";
 		};
-		630776B520703E690068A879 /* CouchbaseFetchTests */ = {
+		630776B520703E690068A879 /* FileDownloadManagerTests */ = {
 			isa = PBXGroup;
 			children = (
 				630776B620703E690068A879 /* CouchbaseFetchTests.swift */,
 				630776B820703E690068A879 /* Info.plist */,
 			);
-			path = CouchbaseFetchTests;
+			path = FileDownloadManagerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6307769D20703E670068A879 /* CouchbaseFetch */ = {
+		6307769D20703E670068A879 /* FileDownloadManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 630776BB20703E690068A879 /* Build configuration list for PBXNativeTarget "CouchbaseFetch" */;
+			buildConfigurationList = 630776BB20703E690068A879 /* Build configuration list for PBXNativeTarget "FileDownloadManager" */;
 			buildPhases = (
 				6307769A20703E670068A879 /* Sources */,
 				6307769B20703E670068A879 /* Frameworks */,
@@ -111,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = CouchbaseFetch;
+			name = FileDownloadManager;
 			productName = CouchbaseFetch;
-			productReference = 6307769E20703E670068A879 /* CouchbaseFetch.app */;
+			productReference = 6307769E20703E670068A879 /* FileDownloadManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		630776B120703E690068A879 /* CouchbaseFetchTests */ = {
+		630776B120703E690068A879 /* FileDownloadManagerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 630776BE20703E690068A879 /* Build configuration list for PBXNativeTarget "CouchbaseFetchTests" */;
+			buildConfigurationList = 630776BE20703E690068A879 /* Build configuration list for PBXNativeTarget "FileDownloadManagerTests" */;
 			buildPhases = (
 				630776AE20703E690068A879 /* Sources */,
 				630776AF20703E690068A879 /* Frameworks */,
@@ -129,9 +152,9 @@
 			dependencies = (
 				630776B420703E690068A879 /* PBXTargetDependency */,
 			);
-			name = CouchbaseFetchTests;
+			name = FileDownloadManagerTests;
 			productName = CouchbaseFetchTests;
-			productReference = 630776B220703E690068A879 /* CouchbaseFetchTests.xctest */;
+			productReference = 630776B220703E690068A879 /* FileDownloadManagerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6307769920703E670068A879 /* Build configuration list for PBXProject "CouchbaseFetch" */;
+			buildConfigurationList = 6307769920703E670068A879 /* Build configuration list for PBXProject "FileDownloadManager" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6307769D20703E670068A879 /* CouchbaseFetch */,
-				630776B120703E690068A879 /* CouchbaseFetchTests */,
+				6307769D20703E670068A879 /* FileDownloadManager */,
+				630776B120703E690068A879 /* FileDownloadManagerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,8 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637D84532070481F001578B8 /* URLDownloader.swift in Sources */,
+				637D84A1207452A1001578B8 /* DownloadFileOperation.swift in Sources */,
 				630776A420703E670068A879 /* ViewController.swift in Sources */,
+				63230C72207843D400FB97C9 /* AppConstants.swift in Sources */,
 				630776A220703E670068A879 /* AppDelegate.swift in Sources */,
+				6399E5F4207D2A3F00B48730 /* UpdateResultsOperation.swift in Sources */,
+				637D845520704D3B001578B8 /* Job.swift in Sources */,
+				63230CB4207ACE5B00FB97C9 /* GetFileOperation.swift in Sources */,
+				63230CAE2079886900FB97C9 /* ComputeOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +245,7 @@
 /* Begin PBXTargetDependency section */
 		630776B420703E690068A879 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6307769D20703E670068A879 /* CouchbaseFetch */;
+			target = 6307769D20703E670068A879 /* FileDownloadManager */;
 			targetProxy = 630776B320703E690068A879 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -360,13 +390,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DK89B3CEZ5;
-				INFOPLIST_FILE = CouchbaseFetch/Info.plist;
+				INFOPLIST_FILE = FileDownloadManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tapinfuse.CouchbaseFetch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapinfuse.FileDownloadManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_INCLUDE_PATHS[arch=*]" = CommonCrypto;
+				SWIFT_OBJC_BRIDGING_HEADER = "FileDownloadManager/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,13 +410,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DK89B3CEZ5;
-				INFOPLIST_FILE = CouchbaseFetch/Info.plist;
+				INFOPLIST_FILE = FileDownloadManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tapinfuse.CouchbaseFetch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapinfuse.FileDownloadManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_INCLUDE_PATHS[arch=*]" = CommonCrypto;
+				SWIFT_OBJC_BRIDGING_HEADER = "FileDownloadManager/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,7 +441,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouchbaseFetch.app/CouchbaseFetch";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileDownloadManager.app/FileDownloadManager";
 			};
 			name = Debug;
 		};
@@ -428,14 +462,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouchbaseFetch.app/CouchbaseFetch";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileDownloadManager.app/FileDownloadManager";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6307769920703E670068A879 /* Build configuration list for PBXProject "CouchbaseFetch" */ = {
+		6307769920703E670068A879 /* Build configuration list for PBXProject "FileDownloadManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				630776B920703E690068A879 /* Debug */,
@@ -444,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		630776BB20703E690068A879 /* Build configuration list for PBXNativeTarget "CouchbaseFetch" */ = {
+		630776BB20703E690068A879 /* Build configuration list for PBXNativeTarget "FileDownloadManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				630776BC20703E690068A879 /* Debug */,
@@ -453,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		630776BE20703E690068A879 /* Build configuration list for PBXNativeTarget "CouchbaseFetchTests" */ = {
+		630776BE20703E690068A879 /* Build configuration list for PBXNativeTarget "FileDownloadManagerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				630776BF20703E690068A879 /* Debug */,

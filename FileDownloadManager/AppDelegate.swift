@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CouchbaseFetch
+//  FileDownloadManager
 //
 //  Created by David Lindsay on 3/31/18.
 //  Copyright © 2018 Tapinfuse. All rights reserved.
